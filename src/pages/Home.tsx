@@ -1,8 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ExternalLink, Github, Code, Palette, Smartphone, Wrench, Monitor, Bot, Camera } from 'lucide-react';
+import { ArrowRight, ExternalLink, Code, Palette, Smartphone, Wrench, Monitor, Bot, Camera } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import ResponsiveNavbar from '@/components/ResponsiveNavbar';
 
 const Home = () => {
   useScrollAnimation();
@@ -75,26 +75,8 @@ const Home = () => {
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-accent/5 rounded-full blur-3xl"></div>
       </div>
 
-      {/* Navigation */}
-      <nav className="relative z-10 p-6 flex justify-between items-center">
-        <div className="font-bold text-2xl gradient-text">Praveen</div>
-        <div className="flex space-x-6">
-          <Link to="/college-projects" className="text-muted-foreground hover:text-primary transition-colors">
-            College Projects
-          </Link>
-          <Link to="/link-in-bio" className="text-muted-foreground hover:text-primary transition-colors">
-            Link in Bio
-          </Link>
-          <a 
-            href="https://github.com/Praveeenmain" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors"
-          >
-            <Github className="w-5 h-5" />
-          </a>
-        </div>
-      </nav>
+      {/* Responsive Navigation */}
+      <ResponsiveNavbar />
 
       {/* Main Content */}
       <div className="relative z-10">
