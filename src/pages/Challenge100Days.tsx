@@ -10,32 +10,32 @@ const Challenge100Days = () => {
   const challengeProjects = [
     {
       id: 1,
-      title: "Modern Dashboard",
+      title: ">Personal Productivity Dashboard",
       description: "A sleek and responsive admin dashboard with dark/light theme toggle and real-time data visualization.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500",
       day: 1,
-      technologies: ["React", "Tailwind CSS", "Chart.js"],
-      link: "#",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      link: "https://chic-arithmetic-d03ec4.netlify.app/",
       status: "completed"
     },
     {
       id: 2,
-      title: "Weather App",
+      title: "Personal Portfilo",
       description: "A beautiful weather application with location-based forecasts and animated weather icons.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500",
       day: 2,
-      technologies: ["React", "OpenWeather API", "CSS3"],
-      link: "#",
+      technologies: ["Bolt Ai Agent"],
+      link: "https://resilient-heliotrope-010d68.netlify.app/",
       status: "completed"
     },
     {
       id: 3,
-      title: "E-commerce Landing",
-      description: "A modern e-commerce landing page with smooth animations and mobile-first design approach.",
+      title: "Link In Bio Page",
+      description: "A dynamic link in bio page with a responsive design and smooth scrolling.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500",
       day: 3,
-      technologies: ["React", "Framer Motion", "Stripe"],
-      link: "#",
+      technologies: ["Lovable.dev","Tailwind CSS","React"],
+      link: "https://www.praveenn.site/link-in-bio",
       status: "in-progress"
     }
   ];
