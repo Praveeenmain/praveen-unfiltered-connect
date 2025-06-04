@@ -10,7 +10,7 @@ const Home = () => {
   const projects = [
     {
       title: "Kafe Tirupati",
-      description: "A modern website for a local café featuring online ordering capabilities and a dynamic menu system.",
+      description: "A modern website for a local café features of Famous Items and Franchise information.",
       image: "https://kafetirupati.shop/assets/kafetirupati-CuQ9UYs1.jpeg",
       link: "https://kafetirupati.shop/"
     },
@@ -28,8 +28,8 @@ const Home = () => {
     },
     {
       title: "Oasis Fitness Institute",
-      description: "A comprehensive platform for a fitness center with class schedules and membership information.",
-      image: "https://www.oasisfitnessinstitute.com/lovable-uploads/Logo1.png",
+      description: "A comprehensive platform for a fitness institute with Personal Trainer information.",
+      image: "/lovable-uploads/oasis.png",
       link: "https://www.oasisfitnessinstitute.com/"
     }
   ];
