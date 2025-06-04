@@ -10,7 +10,7 @@ const Challenge100Days = () => {
   const challengeProjects = [
     {
       id: 1,
-      title: ">Personal Productivity Dashboard",
+      title: "Personal Productivity Dashboard",
       description: "A sleek and responsive admin dashboard with dark/light theme toggle and real-time data visualization.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500",
       day: 1,
@@ -32,11 +32,11 @@ const Challenge100Days = () => {
       id: 3,
       title: "Link In Bio Page",
       description: "A dynamic link in bio page with a responsive design and smooth scrolling.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500",
+      image: "https://uploads-ssl.webflow.com/5fd39cde89a3b6b667f26497/5fd665e7a6df4279cc7c39b8_linkinbio-thumbnail.jpg",
       day: 3,
       technologies: ["Lovable.dev","Tailwind CSS","React"],
       link: "https://www.praveenn.site/link-in-bio",
-      status: "in-progress"
+      status: "completed"
     }
   ];
 

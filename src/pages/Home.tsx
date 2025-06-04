@@ -11,26 +11,26 @@ const Home = () => {
     {
       title: "Kafe Tirupati",
       description: "A modern website for a local café featuring online ordering capabilities and a dynamic menu system.",
-      image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=500",
-      link: "#"
+      image: "https://kafetirupati.shop/assets/kafetirupati-CuQ9UYs1.jpeg",
+      link: "https://kafetirupati.shop/"
     },
     {
       title: "Tirupati Cabs",
       description: "A transportation service website with booking functionality and route information.",
       image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=500",
-      link: "#"
+      link: "https://www.tirupathicabs.com/"
     },
     {
       title: "Vinod Constructions",
       description: "A corporate website for a construction company showcasing their projects and services.",
       image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=500",
-      link: "#"
+      link: "https://www.vinodconstructions.com/"
     },
     {
       title: "Oasis Fitness Institute",
       description: "A comprehensive platform for a fitness center with class schedules and membership information.",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500",
-      link: "#"
+      image: "https://www.oasisfitnessinstitute.com/lovable-uploads/Logo1.png",
+      link: "https://www.oasisfitnessinstitute.com/"
     }
   ];
 
