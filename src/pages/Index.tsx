@@ -6,7 +6,7 @@ import SocialLinks from '@/components/SocialLinks';
 import ContactForm from '@/components/ContactForm';
 import FloatingContactButton from '@/components/FloatingContactButton';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, Rocket } from 'lucide-react';
 
 const Index = () => {
   useScrollAnimation();
@@ -62,6 +62,30 @@ const Index = () => {
                 →
               </div>
             </Link>
+          </section>
+
+          {/* Building in Public Section */}
+          <section className="text-center animate-on-scroll">
+            <div className="glass-card p-6 rounded-2xl space-y-4 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+              <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto">
+                <Rocket className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-primary">Building in Public</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed">
+                Follow my MicroSaaS journey on Instagram! I'm building a product in public and sharing the real challenges, wins, and lessons learned.
+              </p>
+              <div className="pt-2">
+                <a 
+                  href="https://www.instagram.com/praveenbuilds" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+                >
+                  <span>Follow @praveenbuilds</span>
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              </div>
+            </div>
           </section>
 
           {/* Social Links */}
