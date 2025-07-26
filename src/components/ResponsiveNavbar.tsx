@@ -13,7 +13,7 @@ const ResponsiveNavbar = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'College Projects', path: '/college-projects' },
-    { name: '100 Days Challenge', path: '/100-days-challenge' },
+    { name: 'YouTube Playlist', path: '/youtube-playlist' },
     { name: 'Link in Bio', path: '/link-in-bio' },
   ];
 

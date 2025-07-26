@@ -13,7 +13,7 @@ const SocialLinks = () => {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/praveenunflitered',
+      url: 'https://www.instagram.com/praveenbuilds',
       icon: Instagram,
       color: 'hover:bg-gradient-to-r hover:from-pink-500 hover:to-purple-600',
       description: 'Follow my journey'

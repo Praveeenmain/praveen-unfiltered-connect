@@ -7,7 +7,7 @@ const ProfileSection = () => {
       <div className="relative inline-block">
         <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-primary/30 shadow-2xl transform transition-all duration-300 hover:scale-105 hover:border-primary/60 hover:shadow-primary/20">
           <img 
-            src="/lovable-uploads/1ae82064-1765-4221-ab02-b13071bdf120.png"
+            src="/lovable-uploads/portfilo.jpeg"
             alt="Praveen"
             className="w-full h-full object-cover"
           />

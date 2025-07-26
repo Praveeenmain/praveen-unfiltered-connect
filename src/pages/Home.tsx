@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ExternalLink, Code, Palette, Smartphone, Wrench, Monitor, Bot, Camera } from 'lucide-react';
+import { ArrowRight, ExternalLink, Code, Palette, Smartphone, Wrench, Monitor, Bot, Camera, Play } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import ResponsiveNavbar from '@/components/ResponsiveNavbar';
 
@@ -136,22 +136,22 @@ const Home = () => {
             </div>
           </section>
 
-          {/* 100 Websites 100 Days Section */}
+          {/* YouTube Playlist Section */}
           <section className="space-y-8 animate-on-scroll">
-            <h2 className="text-3xl md:text-4xl font-bold text-center">100 Websites 100 Days</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-center">YouTube Playlist</h2>
             <div className="glass-card p-8 rounded-2xl text-center space-y-6 max-w-3xl mx-auto">
-              <div className="w-20 h-20 bg-primary/20 rounded-full flex items-center justify-center mx-auto">
-                <Code className="w-10 h-10 text-primary" />
+              <div className="w-20 h-20 bg-red-500/20 rounded-full flex items-center justify-center mx-auto">
+                <Play className="w-10 h-10 text-red-600" />
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                An ambitious challenge to create 100 unique websites in 100 days, showcasing different design patterns, technologies, and creative solutions. Each project pushes the boundaries of web development and explores new possibilities.
+                A curated collection of videos showcasing my journey, tutorials, and insights in web development and technology. Learn from my experiences and discover new techniques.
               </p>
               <div className="pt-4">
                 <Link 
-                  to="/100-days-challenge" 
+                  to="/youtube-playlist" 
                   className="inline-flex items-center space-x-2 bg-primary/20 hover:bg-primary/30 text-primary border border-primary/30 px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
                 >
-                  <span>View Challenge Progress</span>
+                  <span>Watch Playlist</span>
                   <ExternalLink className="w-4 h-4" />
                 </Link>
               </div>

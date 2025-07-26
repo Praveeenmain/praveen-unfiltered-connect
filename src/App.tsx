@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Index from "./pages/Index";
 import Portfolio from "./pages/Portfolio";
 import CollegeProjects from "./pages/CollegeProjects";
-import Challenge100Days from "./pages/Challenge100Days";
+import YouTubePlaylist from "./pages/YouTubePlaylist";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,7 +24,7 @@ const App = () => (
           <Route path="/link-in-bio" element={<Index />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/college-projects" element={<CollegeProjects />} />
-          <Route path="/100-days-challenge" element={<Challenge100Days />} />
+          <Route path="/youtube-playlist" element={<YouTubePlaylist />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
