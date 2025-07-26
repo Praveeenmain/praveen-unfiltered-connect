@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ExternalLink, Code, Palette, Smartphone, Wrench, Monitor, Bot, Camera, Play } from 'lucide-react';
+import { ArrowRight, ExternalLink, Code, Palette, Smartphone, Wrench, Monitor, Bot, Camera, Play, Rocket } from 'lucide-react';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import ResponsiveNavbar from '@/components/ResponsiveNavbar';
 
@@ -154,6 +154,38 @@ const Home = () => {
                   <span>Watch Playlist</span>
                   <ExternalLink className="w-4 h-4" />
                 </Link>
+              </div>
+            </div>
+          </section>
+
+          {/* MicroSaaS Product Section */}
+          <section className="space-y-8 animate-on-scroll">
+            <h2 className="text-3xl md:text-4xl font-bold text-center">Building in Public</h2>
+            <div className="glass-card p-8 rounded-2xl text-center space-y-6 max-w-4xl mx-auto">
+              <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mx-auto">
+                <Rocket className="w-10 h-10 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-primary">MicroSaaS Product</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                I'm currently building a MicroSaaS product in public! Follow my journey as I develop, launch, and grow this innovative solution. This is where I share the real challenges, wins, and lessons learned from building a SaaS business from scratch.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+                <a 
+                  href="https://www.instagram.com/praveenbuilds" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+                >
+                  <span>Follow the Journey</span>
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+                <a 
+                  href="mailto:praveenunflitered96@gmail.com" 
+                  className="inline-flex items-center space-x-2 bg-primary/20 hover:bg-primary/30 text-primary border border-primary/30 px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+                >
+                  <span>Get Early Access</span>
+                  <ExternalLink className="w-4 h-4" />
+                </a>
               </div>
             </div>
           </section>
